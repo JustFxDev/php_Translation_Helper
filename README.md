@@ -22,7 +22,7 @@ This documentation describes both approaches.
 
 # Translation based on an existing file
 
-In addition to the Excel workbook, the file with the source language is required also. This file content must be copied into the table in the left column (1) as pure text. Usually you will already find a `translations.php` in the corresponding folder. e.g.:
+In addition to the Excel workbook, the file with the source language is required also. This file content must be copied into the table in the left column (1) as plain text. Usually you will already find a `translations.php` in the corresponding folder. e.g.:
 
 ![](./assets/locale_dir.png)
 
@@ -56,7 +56,7 @@ Contains (later) the source code for the new *translations.php* file. Do not mak
 
 #### 1. Copy the text lines from translations.php to column 1.
 
-When copying, make sure that only blank text is copied. Excessive tabs or spaces do not matter.
+When copying, make sure that only plain text is copied. Excessive tabs or spaces do not matter.
 
 Important: Column 1 must not contain any blank lines, comments or other lines. Only the text to be translated in single quotation marks. Preferably in plain text format. In principle, however, a simple copy and paste should work.
 
@@ -107,10 +107,10 @@ The result is then saved in the corresponding folder of the project. Example Kan
 That's it.
 # Create translation without source file
 
-To do this, please select the table *"From Scratch "*. **There the column 1 is omitted. **
+To do this, please select the table **"From Scratch"**.  There the column 1 is omitted.
 ![](./assets/from_scratch.png)
 
-Instead of copying source data from a possibly existing *translations.php*, one enters all texts on the left side (2) oneself and lets these translate then again on https://deepl.com and copies the result into (3), revises this and copies then from (4) the text into an editor of its choice and stores this text then at the correct place.
+Instead of copying source data from a possibly existing *translations.php*, one enters all texts on the left side (2) oneself without single quotes and lets these translate then again on https://deepl.com and copies the result into (3), revises this and copies then from (4) the text into an editor of its choice and stores this text then at the correct place.
 
 So in principle it works exactly the same as if you have a file (s. above).
 
