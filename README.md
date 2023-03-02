@@ -6,6 +6,8 @@
 
 :de: [Deutsche Fassung dieses Textes](./README_de.md)
 
+*Protip: As a developer you may add a prefilled version of this worksheet with your strings to your release in the language folder*
+
 PHP Translation Helper (for Kanboard and other projects)
 =============================
 
