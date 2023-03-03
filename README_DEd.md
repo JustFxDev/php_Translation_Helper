@@ -27,7 +27,7 @@ Neben der Excel Mappe wird zunächst die Datei mit der Ausgangssprache benötigt
 
 Die Beispieldatei enthält nur die englische Sprache und sieht wie folgt aus:
 
-<img src="./assets/main_translation_file.png" style="zoom:50%;" />
+<img src="./assets/main_translation_file.png" width="200px" />
 
 Diese Beispieldatei befindet sich hier: [Beispieldatei](./example_translations.php)
 
